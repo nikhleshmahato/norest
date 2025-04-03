@@ -1,0 +1,11 @@
+{
+  "greeting": "Hello! How can I help you today?",
+  "hello": "Hi there! Nice to meet you.",
+  "hi": "Hi there! Nice to meet you.",
+  "how are you": "I'm just a program, but I'm functioning well!",
+  "what's your name": "I'm a simple chatbot that responds from JSON data.",
+  "goodbye": "Goodbye! Have a great day!",
+  "thanks": "You're welcome!",
+  "thank you": "You're welcome!",
+  "default": "I'm not sure how to respond to that. Try asking something else."
+}

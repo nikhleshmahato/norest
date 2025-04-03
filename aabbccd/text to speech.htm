@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Speech Reader</title>
+</head>
+<body>
+
+    <h2>Click the button to read the text file</h2>
+    <button onclick="Read()">Read Sentences</button>
+
+    
+
+</body>
+<script>
+        var tex="hello sir , how can i help you !"
+        function speakText(text) {
+            const speech = new SpeechSynthesisUtterance(text);
+            speech.lang = "en-IN"; // Set language
+            speech.rate = 0.8;  // Speed (default is 1, range: 0.1 to 10)
+            speech.pitch =1; // Pitch (default is 1, range: 0 to 2)
+            speech.volume = 1; // Volume (default is 1, range: 0 to 1)
+            
+            window.speechSynthesis.speak(speech);
+        }
+
+        function Read(){
+          speakText(tex);
+        }
+        
+    </script>
+</html>
